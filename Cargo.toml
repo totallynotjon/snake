@@ -1,0 +1,17 @@
+[package]
+name = "snake"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jon Bramley <brostash1@gmail.com>"]
+description = "Let's make a snake eventually"
+license = "MIT"
+repository = "https://github.com/yourgithubusername/hello-wasm"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.106"
+
+
+
