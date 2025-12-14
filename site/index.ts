@@ -1,3 +1,13 @@
 import * as wasm from "snake";
+import { AppleDelta } from "snake";
 
-wasm.greet("WebAssembly with npm and typescript");
+async function appleDelta(event : AppleDelta) {
+    console.log(event);
+}
+
+let game = new wasm.SnakeGame(
+    10,
+    10,
+    appleDelta);
+
+
