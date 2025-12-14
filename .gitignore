@@ -1,1 +1,6 @@
 /target
+/node_modules
+/pkg
+*/node_modules/*
+*.wasm
+/site/dist/*
